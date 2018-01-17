@@ -4,7 +4,7 @@ Its a Map Reduce Program which tells you about People you may know on the basis 
 
 ->Input File Format
 Input File conatins Input in the form of adjaceny list
-<SocialNetworkingSiteUser><tabspace><Friends separated by comma>
+(SocialNetworkingSiteUser)(tabspace)(Friends separated by comma)
  e.g   0  1,2,3,4,5,6
   wherer 0 is the user and 1,2,3,4,5,6 are his friends 
   
@@ -15,10 +15,10 @@ Input File conatins Input in the form of adjaceny list
  
   OutputFormat
  
-  User<Tabspace><Recommendation separated with comma>
+  User(Tabspace)(Recommendation separated by comma)
   0   123,3128,20,45......//here 123 has maximum mutual friends in common with 0
   
   Recommendations must be sorted in descending order of number of mutual friends
   If there are equal mutual friends Recommendations should be sorted on  in numericallly ascending order on the basis of userID
-  e.g 12  123,1987 //let's say both have same number of mutual friend in common with 12 then 123 should come first as its numerically less 
+  e.g 12  123,1987 //let's say both have same number of mutual friend in common with 12 then 123 should come first as its        numerically less 
   
